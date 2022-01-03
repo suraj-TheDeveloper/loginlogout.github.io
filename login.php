@@ -19,7 +19,7 @@
                         <div class="card-body">
                             <h2 class="card-title text-center">Login</h2>
                             <p class="text-center text-danger" id="display"></p>
-                            <form id="form" action="#" method="POST">
+                            <form id="loginform" action="#" method="POST">
                                 <div class="md-3 mt-3">
                                     <label class="form-label">Email</label>
                                     <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email...">
@@ -28,7 +28,7 @@
                                     <label class="form-label">Password</label>
                                     <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password...">
                                 </div>
-                                <input type="button" style="margin: 10px;" class="btn btn-primary" id="register" name="register" value="Register">
+                                <input type="button" style="margin: 10px;" class="btn btn-primary" id="login" name="login" value="Login">
                             </form>
                         </div>
                     </div>
@@ -36,5 +36,5 @@
             </div>
         </div>
     </body>
-    <script src="javascript/registerajax.js"></script>
+    <script src="javascript/loginajax.js"></script>
 </html>
